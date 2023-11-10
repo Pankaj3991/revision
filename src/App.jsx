@@ -5,10 +5,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 const App = () => {
   return (
     <BrowserRouter>
+    {/* fixed parts here  */}
       <Routes>
         <Route path='/form' element={<Form />} />
       </Routes>
-
+      {/* fixed part here. */}
     </BrowserRouter>
   )
 }
